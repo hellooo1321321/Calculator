@@ -10,7 +10,8 @@ public class Application {
         // 스캐너 이용 반복문 활용 1.2.3.4. 사칙연산 9. 프로그램종료
         // 찬우
 
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("");
 
     }
 
@@ -81,7 +82,14 @@ public class Application {
 
     // 더하기 plus
 
+
+    public void plus(int first, int second ) {
+        System.out.println(first + second);
+    }
     // 뺴기 min
+    public void minus(int first, int second){
+        System.out.println(first - second);
+    }
 
     // 윤재
 
