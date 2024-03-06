@@ -13,6 +13,11 @@ public class Application {
     public void mod(int first, int second) {
 
 //        return first % second;
+        try {
+            System.out.println(first + "%" + second + "=" + first % second);
+        } catch (NullPointerException error) {
+            System.out.println("0으로 나눌 수 없습니다.");
+        }
 
     }
 
