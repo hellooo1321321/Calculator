@@ -12,7 +12,7 @@ public class Application {
     // 나머지 mod
     public void mod(int first, int second) {
 
-        return first % second;
+//        return first % second;
 
     }
 
