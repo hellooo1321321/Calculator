@@ -55,6 +55,15 @@ public class Application {
 
     }
 
+public void plus(int first, int second ) {
+    System.out.println(first + second);
+}
+
+// 뺴기 min
+public void minus(int first, int second){
+    System.out.println(first - second);
+}
+
    
   
   public int multi(int first, int second) {
