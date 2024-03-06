@@ -63,7 +63,7 @@ public class Application {
   
   
   
-  public int div (int first, int second){
+  public void div (int first, int second){
 
         if (second != 0) {
 
