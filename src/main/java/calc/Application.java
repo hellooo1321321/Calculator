@@ -9,8 +9,30 @@ public class Application {
         // 찬우
 
 
+    }
+
+
+    public int multi(int first, int second) {
+
+       return first * second;
+
 
     }
+
+    public int div (int first, int second){
+
+        if (second != 0) {
+
+            return first / second;
+
+
+        } else {
+            throw new IllegalArgumentException("0으로 나눌 수 없음");
+
+        }
+
+    }
+
 
     // 더하기 plus
 
@@ -27,4 +49,5 @@ public class Application {
     // 나머지 mod
 
     // 정민 try catch 활용
+
 }
