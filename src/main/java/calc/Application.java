@@ -17,9 +17,6 @@ public class Application {
 
     // 더하기 plus
 
-    int first = scanner.nextInt();
-    int second = scanner.nextInt();
-
 
     public void plus(int first, int second ) {
         System.out.println(first + second);
