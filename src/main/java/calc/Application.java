@@ -56,10 +56,9 @@ public class Application {
 
    
   
-  public int multi(int first, int second) {
+  public void multi(int first, int second) {
 
-       return first * second;
-
+      System.out.println(first * second);
   
   
   
@@ -68,7 +67,7 @@ public class Application {
 
         if (second != 0) {
 
-            return first / second;
+            System.out.println(first / second);
 
 
         } else {
