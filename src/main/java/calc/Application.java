@@ -66,19 +66,18 @@ public void minus(int first, int second){
 
    
   
-  public int multi(int first, int second) {
+  public void multi(int first, int second) {
 
-       return first * second;
-
+      System.out.println(first * second);
   
   
   
   
-  public int div (int first, int second){
+  public void div (int first, int second){
 
         if (second != 0) {
 
-            return first / second;
+            System.out.println(first / second);
 
 
         } else {
@@ -111,4 +110,5 @@ public void minus(int first, int second){
 
     // 정민 try catch 활용
 
+      // 윤재씨가 날림 내꺼
 }
