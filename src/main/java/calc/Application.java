@@ -25,7 +25,7 @@ public class Application {
     public void minus(int first, int second){
         System.out.println(first - second);
     }
-
+/
     // 윤재
 
     // 곱하기 multi
